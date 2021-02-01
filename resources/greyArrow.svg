@@ -1,0 +1,19 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="51px" height="41px">
+<defs>
+<filter id="Filter_0">
+    <feFlood flood-color="rgb(194, 194, 194)" flood-opacity="1" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="rgb(235, 235, 235)"
+ d="M4.188,9.563 L32.031,9.563 C34.240,9.563 36.031,11.353 36.031,13.562 L36.031,26.844 C36.031,29.053 34.240,30.844 32.031,30.844 L4.188,30.844 C1.978,30.844 0.188,29.053 0.188,26.844 L0.188,13.562 C0.188,11.353 1.978,9.563 4.188,9.563 Z"/>
+<path fill-rule="evenodd"  fill="rgb(21, 126, 251)"
+ d="M27.471,39.137 L27.471,1.254 C28.907,-0.189 31.236,-0.189 32.672,1.254 L48.927,17.583 C50.364,19.026 50.364,21.365 48.927,22.808 L32.672,39.137 C31.236,40.580 28.907,40.580 27.471,39.137 Z"/>
+</g>
+</svg>

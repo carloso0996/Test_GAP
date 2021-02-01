@@ -1,0 +1,44 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="143px" height="91px">
+<defs>
+<filter id="Filter_0">
+    <feFlood flood-color="rgb(53, 154, 192)" flood-opacity="1" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+<filter id="Filter_1">
+    <feFlood flood-color="rgb(53, 154, 192)" flood-opacity="1" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+<filter id="Filter_2">
+    <feFlood flood-color="rgb(53, 154, 192)" flood-opacity="1" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+<filter id="Filter_3">
+    <feFlood flood-color="rgb(53, 154, 192)" flood-opacity="1" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="rgb(235, 235, 235)"
+ d="M70.844,0.812 C95.403,0.812 115.313,20.743 115.313,45.328 C115.313,69.913 95.403,89.844 70.844,89.844 C46.284,89.844 26.375,69.913 26.375,45.328 C26.375,20.743 46.284,0.812 70.844,0.812 Z"/>
+</g>
+<g filter="url(#Filter_1)">
+<path fill-rule="evenodd"  fill="rgb(235, 235, 235)"
+ d="M112.953,20.688 C129.168,20.688 142.313,33.839 142.313,50.063 C142.313,66.286 129.168,79.437 112.953,79.437 C96.738,79.437 83.594,66.286 83.594,50.063 C83.594,33.839 96.738,20.688 112.953,20.688 Z"/>
+</g>
+<g filter="url(#Filter_2)">
+<path fill-rule="evenodd"  fill="rgb(235, 235, 235)"
+ d="M41.797,31.969 C58.012,31.969 71.156,45.120 71.156,61.344 C71.156,77.567 58.012,90.719 41.797,90.719 C25.582,90.719 12.437,77.567 12.437,61.344 C12.437,45.120 25.582,31.969 41.797,31.969 Z"/>
+</g>
+<g filter="url(#Filter_3)">
+<path fill-rule="evenodd"  fill="rgb(235, 235, 235)"
+ d="M15.453,41.437 C23.556,41.437 30.125,48.006 30.125,56.109 C30.125,64.212 23.556,70.781 15.453,70.781 C7.350,70.781 0.781,64.212 0.781,56.109 C0.781,48.006 7.350,41.437 15.453,41.437 Z"/>
+</g>
+</svg>
