@@ -8,13 +8,13 @@
 /*
 *Tablet
 */
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .diagramUpper {
         flex-flow: wrap;
     }
     
     .diagramUpper div {
-        width: 100%;
+        width: 100%!important;
         padding: 1.5rem 0;
     }
     
@@ -36,7 +36,15 @@
     }
 
     .downloadLink {
-        font-size: .9rem;
+        font-size: .75rem;
+    }
+
+    .switchContainer a {
+        font-size: 1rem;
+    }
+
+    .downloadButton:before{
+        top: 1rem;
     }
 }
 
@@ -45,11 +53,45 @@
 */
 @media only screen and (max-width: 480px){
     .blueNumbersList p {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     .diagramUpper b {
         font-size: 1.5rem;
+    }
+
+    .blueNumbersList{
+        width: 90%!important;
+        left: .5rem;
+    }
+
+    #rapidGrowthImg {
+        height: 50%;
+    }
+
+    .blueNumbersList{
+        padding-left: 1rem!important;
+    }
+
+    .textSizeLg{
+        font-size: 1.5rem;
+    }
+
+    .switchContainer {
+        flex-flow: wrap;
+    }
+    
+    .switchContainer a {
+        text-align: center;
+        padding: .5rem;
+    }
+
+    .hardwareOptionContainer {
+        flex-flow: wrap;
+    }
+    
+    .hardwareOptionContainer > div {
+        width: 100%;
     }
     
 }
