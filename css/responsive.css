@@ -1,1 +1,55 @@
+/*
+*Desktop
+*/
+@media only screen and (max-width: 992px){
+    
+}
 
+/*
+*Tablet
+*/
+@media only screen and (max-width: 768px){
+    .diagramUpper {
+        flex-flow: wrap;
+    }
+    
+    .diagramUpper div {
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+    
+    .diagramUpper div b {
+        display: block;
+    }
+    
+    .greyArrowNext {
+        transform: rotate(90deg);
+    }
+    
+    .blueNumbersList {
+        width: 50%!important;
+        margin: auto;
+    }
+    
+    .blueNumbersList p {
+        padding: 1.5rem 0;
+    }
+
+    .downloadLink {
+        font-size: .9rem;
+    }
+}
+
+/*
+*Mobile
+*/
+@media only screen and (max-width: 480px){
+    .blueNumbersList p {
+        font-size: 1.25rem;
+    }
+    
+    .diagramUpper b {
+        font-size: 1.5rem;
+    }
+    
+}
