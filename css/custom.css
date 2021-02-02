@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'OpenSans', sans-serif;
+}
+
+body {
+    font-size: 14px;
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+}
+
+header {
+    background-color: #1E77A6;
+}
+
+h1 {
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.025em;
+    text-shadow: 0 0 0.125em #fcfdfd;
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.content{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1rem 0;
+}
+
+.orangeText{
+    color: #F99D1C;
+    font-weight: 400;
+}
+
+.darkGreyText{
+    color: #888;
+    font-weight: 400;
+    text-align: center;
+}
+
+.blueText{
+    color: #1E77A6;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.biggerLineHeight {
+    line-height: 1.25rem;
+}
+
+.textSizeLg{
+    font-size: 2.5rem;
+}
+
+p {
+    color: #555;
+}
+
+.containerGrey {
+    width: calc(100% - 4rem);
+    background-color: #EBEBEB;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+}
+
+.diagramUpper {
+    background-color: #FFF;
+    position: relative;
+    display: flex;
+    padding: 1rem 2rem;
+    margin: 1rem 0 2rem 0;
+    border: 1px solid #5858586b;
+    border-radius: 5px;
+}
+
+.diagramUpper div {
+    width: calc(33% - 2rem);
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.diagramUpper b {
+    color: #888;
+}
+
+.greyArrowNext {
+    position: relative;
+    margin: auto;
+}
+
+.diagramUpper div:first-child img,
+#rapidGrowthImg {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#rapidGrowthImg{
+    height: 90%;
+}
+
+.blueNumbersList {
+    width: 60%!important;
+    padding-left: 4rem!important;
+    margin-top: .5rem;
+}
+
+.blueNumbersList p {
+    position: relative;
+    padding: .5rem 0;
+    text-align: left;
+    font-size: 12px;
+    color: #888888;
+    font-style: italic;
+}
+
+.blueNumbersList p:before {
+    content: url('/resources/blue1.svg');
+    position: absolute;
+    left: -3rem;
+    top: 50%;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.blueNumbersList p:nth-child(2):before{
+    content: url('/resources/blue2.svg');
+}
+
+.blueNumbersList p:nth-child(3):before{
+    content: url('/resources/blue3.svg');
+}
+
+.switchContainer {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    padding: 1rem 0;
+    margin: .5rem auto 0 auto;
+    border: 1px solid #5858586b;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.switchContainer a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #555;
+}
+
+.active {
+    color: #2077A6!important;
+    font-weight: 600;
+}
+
+.hardwareOptionContainer {
+    background-color: #FFF;
+    padding: 4rem 2rem 1rem 2rem;
+    position: relative;
+    top: -2rem;
+    border: 1px solid #5858586b;
+    border-radius: 5px;
+    display: flex;
+}
+
+.hardwareOptionContainer > div{
+    width: 50%;
+}
+
+.scalableTextSection p{
+    color: #888;
+}
+
+.redXList {
+    position: relative;
+    left: 3rem;
+}
+
+.redXList p {
+    margin: 2rem 0;
+    position: relative;
+}
+
+.redXList p:before {
+    content: url('/resources/redX.png');
+    left: -3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.downloadLink {
+    padding: 1rem 0 4rem 0;
+    position: relative;
+    display: block;
+    color: #359ac0;
+    left: 3.5rem;
+}
+
+.downloadLink:before {
+    content: url('/resources/greyDocIcon.png');
+    position: absolute;
+    left: -3.5rem;
+}
+
+.downloadButton {
+    background-color: #FDAF1E;
+    padding: 1rem 2rem 1rem 4rem;
+    color: #FFF;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.downloadButton:before {
+    content: url('/resources/orangeDocIcon.png');
+    position: absolute;
+    left: 2rem;
+    top: .5rem;
+}
+
+#btnLegend {
+    color: #fdaf1e;
+    text-align:center;
+    padding: .5rem 0 0 0;
+    position: relative;
+}
