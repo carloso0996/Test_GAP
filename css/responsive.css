@@ -8,22 +8,27 @@
 /*
 *Tablet
 */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 972px){
     .diagramUpper {
         flex-flow: wrap;
     }
+
+    .titleBullets {
+        width: 100%!important;
+    }
+
+    .diagramHardware img {
+        width: calc(100% - 2rem);
+    }
     
-    .diagramUpper div {
+    .imgTextModule {
         width: 100%!important;
         padding: 1.5rem 0;
     }
     
-    .diagramUpper div b {
-        display: block;
-    }
-    
     .greyArrowNext {
         transform: rotate(90deg);
+        padding: 3rem;
     }
     
     .blueNumbersList {
@@ -46,6 +51,24 @@
     .downloadButton:before{
         top: 1rem;
     }
+
+    #rapidGrowthImg{
+        width: 50%
+    }
+}
+
+/*
+* Small Tablet
+*/
+@media screen and (max-width: 790px){
+    .switchContainer,
+    .hardwareOptionContainer {
+        flex-flow: wrap;
+    }
+
+    .hardwareOptionContainer > div {
+        width: 100%;
+    }
 }
 
 /*
@@ -65,20 +88,12 @@
         left: .5rem;
     }
 
-    #rapidGrowthImg {
-        height: 50%;
-    }
-
     .blueNumbersList{
         padding-left: 1rem!important;
     }
 
     .textSizeLg{
         font-size: 1.5rem;
-    }
-
-    .switchContainer {
-        flex-flow: wrap;
     }
     
     .switchContainer a {
@@ -90,8 +105,35 @@
         flex-flow: wrap;
     }
     
-    .hardwareOptionContainer > div {
-        width: 100%;
+    .hardwareOptionContainer img {
+        width: 12rem;
+        padding-bottom: 1rem;
+    }
+
+    .redXList{
+        left: 2.5rem;
+    }
+
+    .redXList p {
+        width: 80%;
     }
     
+}
+
+/* 
+*Small Mobile 
+*/
+@media only screen and (max-width: 360px){
+    .diagramUpper div:first-child img {
+        height: 50%;
+        top: 35%;
+    }
+
+    .redXList {
+        left: 1.5rem;
+    }
+
+    .hardwareOptionContainer img {
+        width: 10rem;
+    }
 }
